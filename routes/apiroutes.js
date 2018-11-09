@@ -6,17 +6,18 @@ Table = {
 };
 
 var path = require ('path');
+var fs = require ('fs');
 
 module.exports = function(app) {
     let aoTables = [{}];
     // returns table info
-    app.get("/tables", function(req, res) {
+    app.get("/Tables", function(req, res) {
         fs.readFile(path.join(__dirname, "app/data/tableData.json"), data);
         aoTables = JSON.parse(data);
         return res.json(aoTables);
     });
     
-    app.post ("/reservation", function (req, res) {
+    app.post ("/makeReservation", function (req, res) {
         if (aoTables.length === 0) {
             // If no data (/tables hasn't been called), try reading it
             // There may be no data there, but that's OK
