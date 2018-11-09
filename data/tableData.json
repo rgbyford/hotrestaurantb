@@ -1,6 +1,40 @@
+
+
 [
-    
     {
-        "error": "update it"
-    }
-]
+      "customerName": "Sultana",
+      "phoneNumber": "800-100-200",
+      "customerEmail": "sultanaK@gmail.com",
+      "customerID": 900
+    },
+    {
+        "customerName": "Sultana",
+        "phoneNumber": "000-000-000",
+        "customerEmail": "sultanaK@gmail.com",
+        "customerID": 900
+    },
+    {
+        "customerName": "Sultana",
+        "phoneNumber": "000-000-000",
+        "customerEmail": "sultanaK@gmail.com",
+        "customerID": 900
+    },
+    {
+        "customerName": "Sultana",
+        "phoneNumber": "800-100-200",
+        "customerEmail": "sultanaK@gmail.com",
+        "customerID": 900
+      },
+      {
+          "customerName": "Akanksha",
+          "phoneNumber": "830-000-000",
+          "customerEmail": "AkankshaK@gmail.com",
+          "customerID": 800
+      },
+      {
+          "customerName": "Matt",
+          "phoneNumber": "820-000-000",
+          "customerEmail": "matt@gmail.com",
+          "customerID": 700
+      }
+  ]
