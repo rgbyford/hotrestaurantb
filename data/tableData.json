@@ -1,6 +1,15 @@
 
 
 [
+<<<<<<< HEAD
+=======
+    {
+        "name": "Matt",
+        "phoneNumber": "000-000-000",
+        "Email": "Matt@customer.com",
+        "UniqueId": "1234"
+    },
+>>>>>>> 297146b9773efbba17743f04a70a11acdabe16f3
     {
       "customerName": "Sultana",
       "phoneNumber": "800-100-200",
