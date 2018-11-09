@@ -5,8 +5,9 @@ module.exports = function(app){
         res.sendFile(path.join(__dirname, "./../public/index.html"));
       });
       
-      app.get("/seeTable", function(req, res) {
-        res.sendFile(path.join(__dirname, "./../public/table.html"));
+
+      app.get("/add", function(req, res) {
+        res.sendFile(path.join(__dirname, "./../public/tables.html"));
       });
       
       app.get("/makeReservation", function(req, res) {
