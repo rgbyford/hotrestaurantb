@@ -6,7 +6,7 @@ module.exports = function(app){
       });
       
 
-      app.get("/add", function(req, res) {
+      app.get("/seeTables", function(req, res) {
         res.sendFile(path.join(__dirname, "./../public/tables.html"));
       });
       
